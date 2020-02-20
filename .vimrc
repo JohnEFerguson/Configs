@@ -1,27 +1,14 @@
-set rtp+=$GOROOT/misc/vim
-filetype plugin indent on
-syntax on
-
-
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'bfrg/vim-cpp-modern'
 
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-" Install L9 and avoid a Naming conflict if you've already installed a
-" different version somewhere else.
-" Plugin 'ascenator/L9', {'name': 'newL9'}
-Plugin 'junegunn/goyo.vim'
-Plugin 'airblade/vim-gitgutter'
-" All of your Plugins must be added before the following line
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -35,8 +22,7 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-set number
-
-" get ride of the waves at the end of files by making them match the backround
-" color
-highlight EndOfBuffer ctermfg=black ctermbg=black
+syntax enable
+set tabstop=2
+set shiftwidth=2
+set expandtab
