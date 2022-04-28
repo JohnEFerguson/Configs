@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Users/jferguson2/Code/DevOps/deploy/gainwell-all/config/connectors/sink'
+let g:netrw_dirhist_6='/Users/jferguson2/Code/DevOps/deploy/gainwell-all/config/connectors'
+let g:netrw_dirhist_5='/Users/jferguson2/Code/DevOps/deploy/gainwell-all/config/connectors/source'
+let g:netrw_dirhist_4='/Users/jferguson2/Code/DevOps/deploy/gainwell-all/config/connectors'
+let g:netrw_dirhist_3='/Users/jferguson2/Code/DevOps/deploy/gainwell-all/config'
+let g:netrw_dirhist_2='/Users/jferguson2/Code/DevOps/toolkit-deploy/new-conf'
+let g:netrw_dirhist_1='/Users/jferguson2/Code/DevOps/toolkit-deploy'
+let g:netrw_dirhist_0='/Users/jferguson2/Code/DevOps/toolkit-deploy/bootrun'
+let g:netrw_dirhist_9='/Users/jferguson2/Code/DevOps/toolkit-deploy'
+let g:netrw_dirhist_8='/Users/jferguson2/Code/DevOps/toolkit-deploy/bootrun'
